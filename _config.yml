@@ -23,7 +23,8 @@ description: BTE-based hydrodyanmic model for thermal transport
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About KCM: "theory"
+  User Guide: "user_guide"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -43,7 +44,7 @@ avatar: "/img/logo.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Statistical Physics UAB
   email: "pol.torres@uab.cat"
   facebook: yourname  # eg. daattali
   github: physta    # eg. daattali
