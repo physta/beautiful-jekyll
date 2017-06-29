@@ -57,5 +57,5 @@ To run the KCM calculation execute:
 
     python KCM.py --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR kappa-mxxx.hdf5
 
-Use only --pa if it was also used in the previous phono3py calculation.
+Use only `--pa` if it was also used in the previous phono3py calculation.
 
