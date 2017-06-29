@@ -22,8 +22,11 @@ This will provide the harmonic and anharmonic force constants files fc2.hdf5 and
 
 Next, execute your adapted command of this example:
 
-    phono3py --dim="2 2 2" --fc3 --fc2  --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" -c POSCAR --mesh="20 20 20" --br --nu  --ts="300 400" --isotope --mv="2.01e-4 2.01e-4" -o name
-
+```javascript
+phono3py --dim="2 2 2" --fc3 --fc2  --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" 
+        -c POSCAR --mesh="20 20 20" --br --nu  --ts="300 400" --isotope 
+        --mv="2.01e-4 2.01e-4" -o name
+```
 `--fc3` and `--fc2` is used to avoid new calculation of the force constants done in the previous step.
 
 `--pa` is used to reducte to the primitive cell. This reduce the computational time. Here you have to introduce the primitive vectors as done in the example for the FCC structure.
