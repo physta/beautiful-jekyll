@@ -13,5 +13,5 @@ As normal processes does not contribute directly to thermal resistance but redis
 a suitable way to solve the LBTE is by using the basis that diagonalizes the normal scattering collision operator.
 This diagonalization allows to solve the BTE without complicating drastically the form of the drift operator.
 
-![fig_kcm](img/collective.png)
-
+![figkin](img/kinetic_regime.png)
+![figcol](img/collective.png)
