@@ -1,10 +1,8 @@
 ---
 layout: page
-subtitle: Theoretical model 
+title: Theoretical model 
 description: Theoretical framework of the KCM 
 ---
-
-Here is given the theoretical framework where the KCM is developed.
 
 ### The Kinetic Collective Model
 

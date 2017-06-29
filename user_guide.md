@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: How to use KCM with phono3py
+title: How to use KCM with phono3py
 description: How to use the KCM with phono3py output.
 ---
 
