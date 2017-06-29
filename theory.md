@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Theoretical model 
+subtitle: Theoretical model 
 description: Theoretical framework of the KCM 
 ---
 

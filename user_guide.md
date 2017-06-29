@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to use KCM with phono3py
+subtitle: How to use KCM with phono3py
 description: How to use the KCM with phono3py output.
 ---
 
@@ -14,10 +14,7 @@ to obtain the force constants for the desired material.
 
 Once you have the FORCES_FC2  FORCES_FC3  FORCE_SETS file execute
 
-```
-phono3py --dim="2 2 2" --sym_fc3 --sym_fc2 --tsym -c POSCAR
-
-```
+    phono3py --dim="2 2 2" --sym_fc3 --sym_fc2 --tsym -c POSCAR
 
 This will provide the harmonic and anharmonic force constants files fc2.hdf5 and fc3.hdf5.
 
