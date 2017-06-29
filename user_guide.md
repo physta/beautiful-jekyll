@@ -5,7 +5,7 @@ description: How to use the KCM with phono3py output.
 ---
 
 Here are given the main steps to follow to calculate the thermal conductivity in the KCM
-with the phono3py outputs. 
+using the output from phono3py. 
 
 ### Phono3py calculation
 
