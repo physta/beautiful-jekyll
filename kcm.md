@@ -14,9 +14,9 @@ a suitable way to solve the LBTE is by using the basis that diagonalizes the nor
 This diagonalization allows to solve the BTE without complicating drastically the form of the drift operator.
 
 The splitting of the collision operator allows to split the thermal conductivity in two contributions, kinetic and collective, 
-weighed by a switching factor &Sigma:
+weighed by a switching factor &Sigma;:
 
-&kappa 
+&kappa; 
 
 ![figkin](img/kinetic_regime.png)
 ![figcol](img/collective.png)
