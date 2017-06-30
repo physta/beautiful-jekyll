@@ -25,6 +25,9 @@ description: BTE-based hydrodyanmic model for thermal transport
 navbar-links:
   About KCM: "kcm"
   User Guide: "user_guide"
+    - General: "user_guide" 
+    - INPUT file: "input_file"  
+    - Tips: "tips"
   Resources:
     - Phono3py: 'https://atztogo.github.io/phono3py/index.html" target="_blank"'
     - VASP: 'https://www.vasp.at/" target="_blank"'
