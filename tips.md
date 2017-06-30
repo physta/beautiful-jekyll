@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips of calculations
+title: Tips for calculations
 description: Tips for calculations.
 ---
 
@@ -28,7 +28,7 @@ For KCM is highly recommended to use primitive cell.
 
 ### Thermal conductivity on 2D materials
 
-The thermal conductivity from <i> first principles </i> of 2D materials, as graphene or MoS2, requires some
+The thermal conductivity from <i> first principles </i> of 2D materials, as graphene or MoS<sub>2</sub>, requires some
 considerations:
 - On the calculation of force constants it is required to use a large _z_ component in order
 to avoid undesired interations of the upper and lower sheet.  

@@ -23,7 +23,9 @@ description: BTE-based hydrodyanmic model for thermal transport
 
 # List of links in the navigation bar
 navbar-links:
-  About KCM: "kcm"
+  About KCM: 
+    - Theory: "kcm"
+    - Articles: "articles"
   User Guide: 
     - General: "user_guide" 
     - INPUT file: "input_file"  
