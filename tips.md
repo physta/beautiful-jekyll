@@ -1,61 +1,38 @@
 ---
 layout: page
-title: How to use KCM with phono3py
-description: How to use the KCM with phono3py output.
+title: Tips of calculations
+description: Tips for calculations.
 ---
 
-Here are given the main steps to follow to calculate the thermal conductivity in the KCM
-using the output from phono3py. 
+The calculations of thermal conductivty for different structures and materials
+may require specific parameters, constrains, etc., for the calculations of force constants and 
+relaxation times.
 
-### Phono3py calculation
+Here are given some tips derived from selfexperiences to easier 
+the calculations of thermal conductivity. 
 
-Download phono3py and follow the instructions given [here](https://atztogo.github.io/phono3py/index.html)
-to obtain the force constants for the desired material.
 
-Once you have the FORCES_FC2  FORCES_FC3  FORCE_SETS file execute
+### Calculation of force constants
 
-    phono3py --dim="2 2 2" --sym_fc3 --sym_fc2 --tsym -c POSCAR
+For the calculation of force constants it is recomended to use a cubic conventional cell, 
+as is better to produce a symmetric supercell for the calculation of the interatomic force constants.
 
-This will provide the harmonic and anharmonic force constants files fc2.hdf5 and fc3.hdf5.
+### General calculation of thermal conductivity
 
-`--dim` corresponds to the cell dimension used to obtain the force constants.
+The calculation of the thermal conductivity reducing to primitive cell using `--pa` option provides different
+results of those obtained without it. For instance, in diamond the calculation using `--pa` provides values 
+closer to the experimental ones, while for SiC is the other way. This issue can be caused for the limited 
+grid sampling and its direct effect on the number of normal and umklapp processes depending on the cell.
 
-Next, execute your adapted command of this example:
+For KCM is highly recommended to use primitive cell.  
 
-```javascript
-phono3py --dim="2 2 2" --fc3 --fc2  --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" 
-        -c POSCAR --mesh="20 20 20" --br --nu  --ts="300 400" --isotope 
-        --mv="2.01e-4 2.01e-4" -o name
-```
-`--fc3` and `--fc2` is used to avoid new calculation of the force constants done in the previous step.
+### Thermal conductivity on 2D materials
 
-`--pa` is used to reducte to the primitive cell. This reduce the computational time. Here you have to introduce the primitive vectors as done in the example for the FCC structure.
-
-`--br` is used to fast calculation of the relaxation times.
-
-`--nu` is used to split _N_ and _U_ processes. This is necessary to run the KCM calculation.
-
-`--ts` indicates the temperatures to run the calculations.
-
-`--isotope` calculates the natural isotope concentration scattering.
-
-`--mv` indicates the value of the isotope strength. If is not indicated is used natural isotope concentration. Notice that you have to indicate as many values as
-atoms you have in the primitive cell (if using `--pa` option) or in the conventional cell according to the POSCAR. 
-
-`-o` is used with an extra `name` to avoid overwirtting of the output file.
-
-This calculation will provide a `kappa-mxxx.hdf5`, where `xxx` is the mesh indicated above.
-
-### KCM calculation
-
-Start by cloning the script 
-[KCM.py](https://github.com/physta/kcm/script).
-
-    git clone git://github.com/physta/kcm
-
-To run the KCM calculation execute:
-
-    python KCM.py --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR kappa-mxxx.hdf5
-
-Use only `--pa` if it was also used in the previous phono3py calculation.
-
+The thermal conductivity from <i> first principles </i> of 2D materials, as graphene or MoS2, requires some
+considerations:
+- On the calculation of force constants it is required to use a large _z_ component in order
+to avoid undesired interations of the upper and lower sheet.  
+- On the calculation of the thermal conductivity, the value of &kappa; is normalized by the volume of the
+supercell, therefore, larger _z_ component will reduce the thermal conductivty. To compare with experiments,
+the value of the thermal conductivity &kappa; provided by <i> first principles </i> has to be rescaled 
+multiplying by the _z_ value used in the POSCAR and divided by the one reported by experimental data.

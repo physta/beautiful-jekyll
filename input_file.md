@@ -10,7 +10,7 @@ different projections of the thermal conductivity on certain directions.
 The INPUT file also allows to specifiy the outputs you want to obtain from the calculations, 
 as cumulative thermal conductivity or the thermal conductivity tensor.
 
-An example INPUT file is download together with KCM.py in order to easyer the definition of parameters. Use it as reference.
+An example INPUT file is download together with KCM.py in order to easier the definition of parameters. Use it as reference.
 
 ### INPUT parameters
 
@@ -18,6 +18,9 @@ An example INPUT file is download together with KCM.py in order to easyer the de
 	TYPE= W
 	L= 56e-9
 	I_SF= 1
+	PROJ= Y
+	DIR= sin60 0.5 0
+	T_FILE= Y
 	K_W= Y
 	K_MFP= Y
 	TAU_W= Y
