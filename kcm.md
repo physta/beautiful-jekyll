@@ -20,3 +20,5 @@ weighed by a switching factor &Sigma;:
 
 ![figkin](img/kinetic_regime.png)
 ![figcol](img/collective.png)
+
+For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
