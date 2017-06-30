@@ -28,6 +28,9 @@ An example INPUT file is download together with KCM.py in order to easier the de
 
 See a brief explanation of each parameter:
 - `BOUNDARY`. Specify `Y` or `N` if you want or not include boundary scattering.
+- `TYPE`. If considering boundary effects, indicate the type of sample: `W` for wire, `F` for film and `R` for rod.
+- `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=sqrt(l1·l2).
+
 
 Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass deffect on the thermal conductivity.
 To avoid the need of repeating the calculation of the thermal conductivity, it has been included the option `I_SF` (Impurity Scaling Factor).
