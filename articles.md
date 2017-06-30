@@ -8,7 +8,7 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 
 ### General background
 
-- R.A. Guyer and J.A. Krumhansl. [<i>Solution of the Linearized Phonon Boltzmann Equation</i>](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank"}_. Phystical Review, 1966. [<i>Thermal Conductivity, Second Sound, and Phonon Hydrodynamic Phenomena in Nonmetallic Crystals</i>](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.778). Physical Review, 1966. 
+- R.A. Guyer and J.A. Krumhansl. [<i>Solution of the Linearized Phonon Boltzmann Equation</i>](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank"_}. Phystical Review, 1966. [<i>Thermal Conductivity, Second Sound, and Phonon Hydrodynamic Phenomena in Nonmetallic Crystals</i>](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.778). Physical Review, 1966. 
 - J.M. Ziman. [<i>Electrons and Phonons: The Theory of Transport Phenomena in Solids</i>](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198507796.001.0001/acprof-9780198507796).
 - D. Jou <i>et al</i>. [<i>Extended Irreversible Thermodynamics</i>](http://www.springer.com/in/book/9789048130733). 
 
