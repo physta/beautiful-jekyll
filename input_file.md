@@ -30,7 +30,7 @@ See a brief explanation of each parameter:
 - `BOUNDARY`. Specify `Y` or `N` if you want or not include boundary scattering.
 - `TYPE`. If considering boundary effects, indicate the type of sample: `W` for wire, `F` for film and `R` for rod.
 - `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=<span style="white-space: nowrap; font-size:larger">
-&radic;<span style="text-decoration:overline;">&nbsp;&ell;<sub>1</sub>·&ell;<sub>2</sub>&nbsp;</span></span>.
+&radic;<span style="text-decoration:overline;">&nbsp;A&nbsp;</span></span>, where A is the rod section.
 
 
 Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass deffect on the thermal conductivity.
