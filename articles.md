@@ -38,7 +38,7 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 
 ### Collaborations
 
-- [<i>Thermal conductivity of Bi2Te3 nanowires: how size affects phonon scattering</i>](https://doi.org/10.1039/c7nr02173a){:target="_blank"}. Nanoscale, 2017.
+- [<i>Thermal conductivity of Bi<sub>2</sub>Te<sub>3</sub> nanowires: how size affects phonon scattering</i>](https://doi.org/10.1039/c7nr02173a){:target="_blank"}. Nanoscale, 2017.
 - [<i>Tailoring thermal conductivity by engineering compositional gradients in Si<sub>1-x</sub>Ge<sub>x</sub> superlattices</i>](https://doi.org/10.1007/s12274-015-0788-9){:target="_blank"}. Nano Research, 2015.
 - [<i>In-plane thermal conductivity of sub-20 nm thick suspended mono-crystalline Si layers</i>](https://doi.org/10.1088/0957-4484/25/18/185402){:target="_blank"}. Nanotechnology, 2014.
 - [<i>Thermal rectification in inhomogeneous nanoporous Si devices</i>](https://doi.org/10.1063/1.4816685){:target="_blank"}. Journal of Applied Physics, 2013.
