@@ -12,7 +12,7 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 - J.M. Ziman. [<i>Electrons and Phonons: The Theory of Transport Phenomena in Solids</i>](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198507796.001.0001/acprof-9780198507796){:target="_blank"}.
 - D. Jou <i>et al</i>. [<i>Extended Irreversible Thermodynamics</i>](http://www.springer.com/in/book/9789048130733){:target="_blank"}. 
 
-### The KCM. nanoTransport Group articles
+### About the model. nanoTransport Group
 
 - [<i>First principles kinetic-collective thermal conductivity of semiconductors</i>](https://link.aps.org/doi/10.1103/PhysRevB.95.165407){:target="_blank"}.Physical Review B, 2017.
 - [<i>Enhancing of optic phonon contribution in hydrodynamic phonon transport</i>](https://doi.org/10.1063%2F1.4932034){:target="_blank"}. Journal of Applied Physics, 2015.
@@ -36,7 +36,7 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 - [<i>Memory and nonlocal effects in heat transport: From diffusive to ballistic regimes</i>](https://doi.org/10.1063/1.2645110){:target="_blank"}. Applied Physics Letters, 2007.
 - [<i>Extended entropy and irreversible thermodynamics of a Lorentz diffusive gas</i>](https://doi.org/10.1016/j.physa.2006.09.030){:target="_blank"}. Physica A: Statistical Mechanics and its Application, 2007.
 
-### The KCM. Collaborations
+### Collaborations
 
 - [<i>Thermal conductivity of Bi2Te3 nanowires: how size affects phonon scattering</i>](https://doi.org/10.1039/c7nr02173a){:target="_blank"}. Nanoscale, 2017.
 - [<i>Tailoring thermal conductivity by engineering compositional gradients in Si<sub>1-x</sub>Ge<sub>x</sub> superlattices</i>](https://doi.org/10.1007/s12274-015-0788-9){:target="_blank"}. Nano Research, 2015.
