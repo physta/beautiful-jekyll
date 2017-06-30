@@ -22,3 +22,5 @@ weighed by a switching factor &Sigma;:
 ![figcol](img/collective.png)
 
 For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
+
+![fignormal](img/anim.gif)
