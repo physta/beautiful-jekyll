@@ -24,7 +24,7 @@ description: BTE-based hydrodyanmic model for thermal transport
 # List of links in the navigation bar
 navbar-links:
   About KCM: 
-    - Theory: "kinteic_collective"
+    - Theory: "kinetic_collective"
     - Finite elements: "finite_elements"
     - References: "articles"
   User Guide: 
