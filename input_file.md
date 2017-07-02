@@ -4,11 +4,12 @@ title: INPUT file
 description: How to define specific inputs.
 ---
 
-An INPUT file is used by KCM.py to define specific parameters as boundary effects or 
-different projections of the thermal conductivity on certain directions.
+An INPUT file is used by KCM.py to define specific parameters as temperatures or boundary effects.  
 
 The INPUT file also allows to specifiy the outputs you want to obtain from the calculations, 
 as cumulative thermal conductivity or the thermal conductivity tensor.
+
+A default ouput file (kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [finite elements](https://physta.github.io/finite_elements/).
 
 An example INPUT file is download together with KCM.py in order to easier the definition of parameters. Use it as reference.
 
@@ -37,8 +38,6 @@ Some times is interesting to observe the effect of increase or decrease the effe
 To avoid the need of repeating the calculation of the thermal conductivity with new isotope concentration `--mv`, it has been included the option `I_SF` (Impurity Scaling Factor):
 
 - `I_SF` scales the the impurity/mass deffect scattering relaxation time by the factor specified. Use a float value.
-
-A default ouput file (kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [finite elements](https://physta.github.io/finite_elements/).
 
 The next variables indicate the type of outputs:
 
