@@ -40,7 +40,7 @@ To avoid the need of repeating the calculation of the thermal conductivity with 
 
 The next variables indicate the type of outputs:
 
-- `T_FILE`. Output file of thermal conductivity and NL-paramter as function of temperature.
+- `T_FILE`. Output file of thermal conductivity and NL-paramter as function of temperature. This file can be used as input for finite elements simulations (see [finite elements](https://physta.github.io/finite_elements/)
 - `K_W`. Output file of frequency dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
 - `K_MFP`. Output file of mean free path dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
 - `TAU_W`. Output file of frequency dependence relaxation times. The mode velocity is also included to easier the MFP representation.

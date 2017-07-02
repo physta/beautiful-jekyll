@@ -49,7 +49,7 @@ This calculation will provide a `kappa-mxxx.hdf5`, where `xxx` is the mesh indic
 ### KCM calculation
 
 Start by cloning the script 
-[KCM.py](https://github.com/physta/kcm/script).
+[KCM.py](https://github.com/physta/kinetic_collective/script).
 
     git clone git://github.com/physta/kcm
 
