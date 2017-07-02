@@ -18,7 +18,7 @@ An example INPUT file is download together with KCM.py in order to easier the de
 	BOUNDARY= Y
 	TYPE= W
 	L= 56e-9
-	I_SF= 1
+	I_SF= 1.
 	T_FILE= Y
 	K_W= Y
 	K_MFP= Y
@@ -27,12 +27,22 @@ An example INPUT file is download together with KCM.py in order to easier the de
 
 See a brief explanation of each parameter:
 - `TEMP`. Specify the temperature on which calculations will be carried. Write `ALL` if you want to run the calculation on all the temperatures. The temperatures must correspond
-to those calculated in <b>phono3py</b> with the `--ts` option.
+to those calculated in <b>phono3py</b> with the `--ts` option (see [general](https://physta.github.io/user_guide/)).
 - `BOUNDARY`. Specify `Y` or `N` if you want or not include boundary scattering.
 - `TYPE`. If considering boundary effects, indicate the type of sample: `W` for wire, `F` for film and `R` for rod.
 - `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=<math><msqrt><mi>A</mi></msqrt></math>, where A is the rod section.
 
 
 Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass deffect on the thermal conductivity.
-To avoid the need of repeating the calculation of the thermal conductivity, it has been included the option `I_SF` (Impurity Scaling Factor).
+To avoid the need of repeating the calculation of the thermal conductivity with new isotope concentration `--mv`, it has been included the option `I_SF` (Impurity Scaling Factor):
+
+- `I_SF` scales the the impurity/mass deffect scattering relaxation time by the factor specified. Use a float value.
+
+The next variables indicate the type of outputs:
+
+- `T_FILE`. Output file of thermal conductivity and NL-paramter as function of temperature.
+- `K_W`. Output file of frequency dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
+- `K_MFP`. Output file of mean free path dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
+- `TAU_W`. Output file of frequency dependence relaxation times. The mode velocity is also included to easier the MFP representation.
+- `TAU_T`. Output file of temperature dependence relaxation times. The mode velocity is also included to easier the MFP representation.
 
