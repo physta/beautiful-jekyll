@@ -38,9 +38,11 @@ To avoid the need of repeating the calculation of the thermal conductivity with 
 
 - `I_SF` scales the the impurity/mass deffect scattering relaxation time by the factor specified. Use a float value.
 
+A default ouput file (kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [finite elements](https://physta.github.io/finite_elements/).
+
 The next variables indicate the type of outputs:
 
-- `T_FILE`. Output file of thermal conductivity and NL-paramter as function of temperature. This file can be used as input for finite elements simulations (see [finite elements](https://physta.github.io/finite_elements/)
+- `T_FILE`. Output file of thermal conductivity and NL-paramter tensors as function of temperature.
 - `K_W`. Output file of frequency dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
 - `K_MFP`. Output file of mean free path dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
 - `TAU_W`. Output file of frequency dependence relaxation times. The mode velocity is also included to easier the MFP representation.
