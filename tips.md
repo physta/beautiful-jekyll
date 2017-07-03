@@ -20,8 +20,10 @@ as is better to produce a symmetric supercell for the calculation of the interat
 ### General calculation of thermal conductivity
 
 The calculation of the thermal conductivity reducing to primitive cell using `--pa` option provides different
-results of those obtained without it. For instance, in diamond the calculation using `--pa` provides values 
-closer to the experimental ones, while for SiC is the other way. This issue can be caused for the limited 
+results of those obtained with a conventional cell. For instance, in diamond using the LBTE solution of <b>phono3py</b> (`--lbte` option),
+differences up to 17% are appreciable, while for silicon are of 4%. In the KCM calculations suchs differences are
+of the same order. In both cases, calculations using `--pa` option provides values 
+closer to the experimental ones. This issue can be caused for the limited 
 grid sampling and its direct effect on the number of normal and umklapp processes depending on the cell.
 
 For KCM is highly recommended to use primitive cell.  
