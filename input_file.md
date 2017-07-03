@@ -20,11 +20,13 @@ An example INPUT file is download together with KCM.py in order to easier the de
 	TYPE= W
 	L= 56e-9
 	I_SF= 1.
+	COMP= XX
 	T_FILE= Y
 	K_W= Y
 	K_MFP= Y
 	TAU_W= Y
 	TAU_T= N
+	STP= 100
 
 See a brief explanation of each parameter:
 - `TEMP`. Specify the temperature on which calculations will be carried. Write `ALL` if you want to run the calculation on all the temperatures. The temperatures must correspond
@@ -41,9 +43,9 @@ To avoid the need of repeating the calculation of the thermal conductivity with 
 
 The next variables indicate the type of outputs:
 
-- `T_FILE`. Output file of thermal conductivity and NL-paramter tensors as function of temperature.
+- `COMP`. By default is written the component XX of the thermal conductivity tensor. Specify YY, ZZ, XY, XZ or YZ for other components. Use only one component in each calculation. 
 - `K_W`. Output file of frequency dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
 - `K_MFP`. Output file of mean free path dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
 - `TAU_W`. Output file of frequency dependence relaxation times. The mode velocity is also included to easier the MFP representation.
 - `TAU_T`. Output file of temperature dependence relaxation times. The mode velocity is also included to easier the MFP representation.
-
+- `STP`. Indicates the number of elements used in the binnig of the frequency and mfp dependent output files. `STP= 100` by default.
