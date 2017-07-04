@@ -18,6 +18,11 @@ weighed by a switching factor &Sigma;:
 
 <div style="text-align_center;">&kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub></div>
 
+<p>
+ <br>
+ <img class="ipsImage" src="https://physta.github.io/img/kinetic_regime.png" alt="img/kinetic_regime.png">
+</p>
+
 ![figkin](img/kinetic_regime.png)
 ![figcol](img/collective.png)
 
