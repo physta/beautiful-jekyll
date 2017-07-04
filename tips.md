@@ -9,8 +9,8 @@ may require specific parameters, constrains, etc., for the calculations of force
 relaxation times.
 
 Here are given some tips derived from selfexperiences to easier 
-the calculations of thermal conductivity. If you have any suggestion please sent an <a href="mailto:{{ pol.torres@uab.cat }}"target="_blank">email</a>
-with the details an we will include your tips. 
+the calculations of thermal conductivity. If you have any suggestion please sent an <a href="mailto:{{ "pol.torres@uab.cat" }}" title="Email me" target="_blank">email</a>
+with the details and we will include your tips. 
 
 ### Calculation of force constants
 
