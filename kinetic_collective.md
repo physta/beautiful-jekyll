@@ -33,10 +33,10 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 As pointed out previously, using the basis that diagonalizes the normal scattering collision operator 
 allows to study the drif operator in a simple way to higher orders, leading to:
 
-<center> <math><mfrac><mrow>&part;&tau;</mrow> <mrow>&part;t</mrow></mfrac></math> + <b>q</b>
- = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>)+2&nabla;&nabla;<b>q</b>, </center>
+<center> &part;&tau;/&part;t + <b>q</b>
+ = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>+2&nabla;&nabla;<b>q</b>), </center>
 
-where &ell; is the non-local paramenter (NL-param). From [Guyer and Krumhansel](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank"} it is studied
+where &ell; is the non-local paramenter (NL-param). From [Guyer and Krumhansel](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank_"} it is studied
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit corresponding
 to the collective regime, the NL-param is &ell;<sup>2</sup><sub>N</sub>=&langle;v<sup>2</sup>&tau<sub>N</sub>&rangle;&langle;&tau<sub>C</sub>&rangle;
 
