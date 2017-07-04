@@ -40,5 +40,5 @@ where <math>&ell;</math> is the non-local paramenter (NL-param). From [Guyer and
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit corresponding
 to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>N</sub>=&langle;v<sup>2</sup>&tau;<sub>N</sub>&rangle;&langle;&tau;<sub>C</sub>&rangle;</math>
 
-
+<math>\sqrt[]{x}</math>
 
