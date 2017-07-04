@@ -18,7 +18,7 @@ weighed by a switching factor &Sigma;:
 
 &kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub>
 
-![figkin](img/kinetic_regime.png)
+<img class="ipsImageimg" src="/kinetic_regime.png" alt="img_kin">)
 ![figcol](img/collective.png)
 
 For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
