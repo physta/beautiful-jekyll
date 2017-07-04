@@ -18,8 +18,7 @@ weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub>.</center>
 
-![figkin](img/kinetic_regime.png)
-![figcol](img/collective.png)
+![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
 
 In the kinetic regime, each phonon behave independently, but in the collective regime, due to the effect
 of <i>_N</i> collisions apprears a coupling between phonons. Therefore phonons of different modes perform as a whole
