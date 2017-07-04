@@ -22,7 +22,6 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 - de Tomas C, Cantarero A, Lopeandia AF, Alvarez FX. [<i>From kinetic to collective behavior in thermal transport on semiconductors and semiconductor nanostructures</i>](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}. Journal of Applied Physics, 2014.
 - Ferrando-Villalba P, Lopeandia AF, Abad L, Llobet J, Molina-Ruiz M, Garcia G, <i>et al</i>. [<i>In-plane thermal conductivity of sub-20 nm thick suspended mono-crystalline Si layers</i>](https://doi.org/10.1088/0957-4484/25/18/185402){:target="_blank_"}. Nanotechnology, 2014.
 - Criado-Sancho M, Alvarez FX, Jou D. [<i>Thermal rectification in inhomogeneous nanoporous Si devices</i>](https://doi.org/10.1063/1.4816685){:target="_blank_"}. Journal of Applied Physics, 2013.
-
 - Sellitto A, Alvarez FX, Jou D. [<i>Geometrical dependence of thermal conductivity in elliptical and rectangular nanowires</i>](https://doi.org/10.1016/j.ijheatmasstransfer.2012.02.045){:target="_blank_"}. International Journal of Heat and Mass Transfer,2012.
 - Alvarez FX, Jou D, Sellitto A. [<i>Phonon Boundary Effects and Thermal Conductivity of Rough Concentric Nanowires</i>](https://doi.org/10.1115/1.4002439){:target="_blank_"}. Journal of Heat Transfer, 2011. 
 - Alvarez-Quintana J, Rodriguez-Viejo J, Alvarez FX, Jou D. [<i>Thermal conductivity of thin single-crystalline germanium-on-insulator structures</i>](https://doi.org/10.1016/j.ijheatmasstransfer.2011.01.006){:target="_blank_"}. International Journal of Heat and Mass Transfer, 2011.
