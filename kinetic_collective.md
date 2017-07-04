@@ -33,9 +33,7 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 <center> <b>q</b> = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup> </center>
 
 <math display='block'> 
-        <!-- Start Numerator -->
-        <mrow> &part;&tau;
-        <!-- Start Denominator -->
+   <mrow> &part;&tau; 
         <mrow>
           &part;t
         </mrow>
