@@ -18,7 +18,9 @@ weighed by a switching factor &Sigma;:
 
 <center>&kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub>.</center>
 
-In the kinetic regime, all phonons have its own 
+In the kinetic regime, each phonon behave independently, but in the collective regime, due to the effect
+of _N_ collisions apprears a coupling between phonons. Therefore phonons of different modes perform as a whole
+resistive (R) collisions and share the same collision mean free time (MFT), the so-called collective MFT &tau;<sub>c</sub>.
 
 ![figkin](img/kinetic_regime.png)
 ![figcol](img/collective.png)
@@ -27,5 +29,5 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 
 <p>
  <br>
- <img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto">
+ <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 </p>
