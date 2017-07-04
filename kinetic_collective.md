@@ -18,7 +18,7 @@ weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (&Sigma; - 1)&kappa;<sub>K</sub> + &Sigma;&kappa;<sub>C</sub> ,</center><div align="right">(1)</div> 
 
-where &Sigma;=(1+&tau;<sub>N</sub>/&tau;<sub>R</sub>)<sup>-1</sup>. &Sigma;&isin;[0,1] measures the relative importance
+where <math>&Sigma;=(1+&lagnle;&tau;<sub>N</sub>&rangle;/&langle;&tau;<sub>R</sub>&rangle;)<sup>-1</sup></math>. &Sigma;&isin;[0,1] measures the relative importance
 of the <i>N</i> versus <i>R</i> scattering.
 
 ![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
