@@ -31,8 +31,11 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 ### Hydrodynamic KCM 
 
 As pointed out previously, using the basis that diagonalizes the normal scattering collision operator 
-allows to 
+allows to study the drif operator in a simple way. 
 
-<center> <math display='block'> <mfrac><mrow>&part;&tau;</mrow> <mrow>&part;t</mrow> </mfrac></math><b>q</b>
+<center> <math><mfrac><mrow>&part;&tau;</mrow> <mrow>&part;t</mrow> </mfrac></math><b>q</b>
  = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>)+2&nabla;&nabla;<b>q</b> </center>
+
+
+
 
