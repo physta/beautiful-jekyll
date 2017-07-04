@@ -19,7 +19,7 @@ weighed by a switching factor &Sigma; :
 <center>&kappa; = (&Sigma; - 1)&kappa;<sub>K</sub> + &Sigma;&kappa;<sub>C</sub>,</center>
 
 where &Sigma;=(1+&tau;<sub>N</sub>/&tau;<sub>R</sub>)<sup>-1</sup>. &Sigma;&isin;[0,1] measures the relative importance
-of the <i>N</i> versus <i>N</i> scattering.
+of the <i>N</i> versus <i>R</i> scattering.
 
 ![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
 
@@ -27,12 +27,10 @@ In the kinetic regime, each phonon behave independently, but in the collective r
 of <i>N</i> collisions apprears a coupling between phonons. Therefore phonons of different modes perform as a whole
 resistive collisions and share the same collision mean free time (MFT), the so-called collective MFT &tau;<sub>c</sub>.
 In analogy with the definition of the thermal conductivity, the total phonon relaxation time can be defined from the
-kinetic or resistive &tau;<sub>K</sub> and the collective &tau;<sub>C</sub> as:
+kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</sub> as:
 
-<center>&kappa; = (&Sigma; - 1)&tau;<sub>K</sub> + &Sigma;&tau;<sub>C</sub>.</center>
-
- <br>
- <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
+<center>&tau; = (&Sigma; - 1)&tau;<sub>K</sub> + &Sigma;&tau;<sub>C</sub>.</center>
+<center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 
 For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
 
