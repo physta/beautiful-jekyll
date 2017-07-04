@@ -37,7 +37,7 @@ For a full understanding of the KCM look at [References](https://physta.github.i
     <mi>x</mi><mo>=</mo>
       <mfrac>
         <!-- Start Numerator -->
-        <mrow> &part;&tau; 
+        <mrow> &part;&tau;<mrow> 
         <!-- Start Denominator -->
         <mrow>
           &part;t
