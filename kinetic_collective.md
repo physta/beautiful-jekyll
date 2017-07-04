@@ -34,10 +34,10 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 
 <math display='block'>
   <mrow>
-    <mi>x</mi><mo>=</mo>
       <mfrac>
         <!-- Start Numerator -->
-        <mrow> &part;&tau;<mrow> 
+        <mrow> &part;&tau;
+        <mrow> 
         <!-- Start Denominator -->
         <mrow>
           &part;t
