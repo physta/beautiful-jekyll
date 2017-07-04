@@ -21,7 +21,6 @@ An example INPUT file is download together with KCM.py in order to easier the de
 	L= 56e-9
 	I_SF= 1.
 	COMP= XX
-	T_FILE= Y
 	K_W= Y
 	K_MFP= Y
 	TAU_W= Y
