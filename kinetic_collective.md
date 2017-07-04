@@ -14,20 +14,20 @@ a suitable way to solve the LBTE is by using the basis that diagonalizes the nor
 This diagonalization allows to solve the BTE without complicating drastically the form of the drift operator.
 
 The splitting of the collision operator allows to split the thermal conductivity in two contributions, kinetic and collective, 
-weighed by a switching factor &Sigma;:
+weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub>.</center>
-
-In the kinetic regime, each phonon behave independently, but in the collective regime, due to the effect
-of _N_ collisions apprears a coupling between phonons. Therefore phonons of different modes perform as a whole
-resistive (R) collisions and share the same collision mean free time (MFT), the so-called collective MFT &tau;<sub>c</sub>.
 
 ![figkin](img/kinetic_regime.png)
 ![figcol](img/collective.png)
 
-For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
+In the kinetic regime, each phonon behave independently, but in the collective regime, due to the effect
+of <i>_N</i> collisions apprears a coupling between phonons. Therefore phonons of different modes perform as a whole
+resistive (R) collisions and share the same collision mean free time (MFT), the so-called collective MFT &tau;<sub>c</sub>.
 
 <p>
  <br>
  <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 </p>
+
+For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
