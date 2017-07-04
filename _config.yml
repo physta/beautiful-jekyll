@@ -63,7 +63,7 @@ author:
   snapchat: yourname  # eg. daattali
   instagram: yourname # eg. daattali
   youtube: yourlink   # eg. user/daattali or channel/daattali
-  uab: yourlink   # eg. user/daattali or channel/daattali
+  uab: "http://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467950436.html"   # eg. user/daattali or channel/daattali
   spotify: yourname   # eg. daattali
   telephone: yourphone   # eg. +14159998888
 
