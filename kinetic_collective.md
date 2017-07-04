@@ -33,7 +33,10 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 As pointed out previously, using the basis that diagonalizes the normal scattering collision operator 
 allows to study the drif operator in a simple way. 
 
-<center> <math><mfrac><mrow>&part;&tau;</mrow> <mrow>&part;t</mrow> </mfrac></math> + <b>q</b>
+From <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766"target="_blank">Guyer and Krumhansel</a>, the study
+of the limitin case where normal proceses
+
+<center> <mfrac><mrow>&part;&tau;</mrow> <mrow>&part;t</mrow></mfrac> + <b>q</b>
  = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>)+2&nabla;&nabla;<b>q</b> </center>
 
 
