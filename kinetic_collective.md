@@ -16,7 +16,9 @@ This diagonalization allows to solve the BTE without complicating drastically th
 The splitting of the collision operator allows to split the thermal conductivity in two contributions, kinetic and collective, 
 weighed by a switching factor &Sigma;:
 
-<center>&kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub></center>
+<center>&kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub>.</center>
+
+In the kinetic regime, all phonons have its own 
 
 ![figkin](img/kinetic_regime.png)
 ![figcol](img/collective.png)
@@ -25,8 +27,5 @@ For a full understanding of the KCM look at [References](https://physta.github.i
 
 <p>
  <br>
- <img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="200px" height="auto">
+ <img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto">
 </p>
-
-
-![fignormal](img/anim.gif)
