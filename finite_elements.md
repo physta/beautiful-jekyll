@@ -20,7 +20,7 @@ The implementation of the KCM hydrodynamic equation:
  = -&kappa;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>+2&nabla;&nabla;<b>q</b>) ,</center><div align="right">(1)</div>
 
 requires to obtain the bulk parameters &kappa; and <math>&ell;<sup>2</sup></math> from <i>first principles</i>
-simulations (see [USER GUIDE](https://physta.github.io/user_guide/)). The default output file will inculde such parameters.
+simulations (see [USER GUIDE-INPUT FILE](https://physta.github.io/input_file/)). The default output file will inculde such parameters.
 
 The <b>Eq</b>.1 needs to be implemented in a finite elements simulator as [ANSYS](http://www.ansys.com/){:target="_blank_"} or [COMSOL](https://www.comsol.com){:target="_blank_"} in 1D, 2D or 3D.
 

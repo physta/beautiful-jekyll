@@ -9,7 +9,7 @@ An INPUT file is used by KCM.py to define specific parameters as temperatures or
 The INPUT file also allows to specifiy the outputs you want to obtain from the calculations, 
 as cumulative thermal conductivity or the thermal conductivity tensor.
 
-A default ouput file (kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [finite elements](https://physta.github.io/finite_elements/)).
+A default ouput file (Kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
 
 An example INPUT file is download together with KCM.py in order to easier the definition of parameters. Use it as reference.
 
@@ -29,7 +29,7 @@ An example INPUT file is download together with KCM.py in order to easier the de
 
 See a brief explanation of each parameter:
 - `TEMP`. Specify the temperature on which calculations will be carried. Write `ALL` if you want to run the calculation on all the temperatures. The temperatures must correspond
-to those calculated in <b>phono3py</b> with the `--ts` option (see [general](https://physta.github.io/user_guide/)).
+to those calculated in <b>phono3py</b> with the `--ts` option (see [USER GUIDE-GENERAL](https://physta.github.io/user_guide/)).
 - `BOUNDARY`. Specify `Y` or `N` if you want or not include boundary scattering.
 - `TYPE`. If considering boundary effects, indicate the type of sample: `W` for wire, `F` for film and `R` for rod.
 - `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=&radic;<span style="text-decoration: overline">A</span>, where A is the rod section.
