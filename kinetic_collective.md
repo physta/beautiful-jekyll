@@ -16,7 +16,7 @@ This diagonalization allows to solve the BTE without complicating drastically th
 The splitting of the collision operator allows to split the thermal conductivity in two contributions, kinetic and collective, 
 weighed by a switching factor &Sigma; :
 
-<center>&kappa; = (&Sigma; - 1)&kappa;<sub>K</sub> + &Sigma;&kappa;<sub>C</sub> ,  (1)</center> 
+<center>&kappa; = (&Sigma; - 1)&kappa;<sub>K</sub> + &Sigma;&kappa;<sub>C</sub> ,      (1)</center> 
 
 where &Sigma;=(1+&tau;<sub>N</sub>/&tau;<sub>R</sub>)<sup>-1</sup>. &Sigma;&isin;[0,1] measures the relative importance
 of the <i>N</i> versus <i>R</i> scattering.
@@ -29,7 +29,7 @@ resistive collisions and share the same collision mean free time (MFT), the so-c
 In analogy with the definition of the thermal conductivity, the total phonon relaxation time can be defined from the
 kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</sub> as:
 
-<center>&tau; = (&Sigma; - 1)&tau;<sub>K</sub> + &Sigma;&tau;<sub>C</sub> .  (2)</center>
+<center>&tau; = (&Sigma; - 1)&tau;<sub>K</sub> + &Sigma;&tau;<sub>C</sub> .      (2)</center>
 <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 
 For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
@@ -40,7 +40,7 @@ As pointed out previously, using the basis that diagonalizes the normal scatteri
 allows to study the drift operator in a simple way to higher orders, leading to an hydrodynamic equation beyond Fourier:
 
 <center> &part;&tau;/&part;t + <b>q</b>
- = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>+2&nabla;&nabla;<b>q</b>) ,  (3)</center>
+ = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>+2&nabla;&nabla;<b>q</b>) ,      (3)</center>
 
 where <math>&ell;</math> is the non-local length (NL-param). From [Guyer and Krumhansel](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank_"} it is studied
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit corresponding
@@ -48,6 +48,6 @@ to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>C</sub>=&l
 
 An analog derivation can be done for the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>, leading to <math>&ell;<sup>2</sup><sub>K</sub>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>.
 
-<center>&ell;<sup>2</sup> = (&Sigma; - 1)&ell;<sup>2</sup><sub>K</sub> + &Sigma;&ell;<sup>2</sup><sub>C</sub> .  (4)</center>
+<center>&ell;<sup>2</sup> = (&Sigma; - 1)&ell;<sup>2</sup><sub>K</sub> + &Sigma;&ell;<sup>2</sup><sub>C</sub> .      (4)</center>
 
 This generalization of the Guyer and Krumhansel equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (Eq.3).
