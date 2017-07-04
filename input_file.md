@@ -33,7 +33,7 @@ See a brief explanation of each parameter:
 to those calculated in <b>phono3py</b> with the `--ts` option (see [general](https://physta.github.io/user_guide/)).
 - `BOUNDARY`. Specify `Y` or `N` if you want or not include boundary scattering.
 - `TYPE`. If considering boundary effects, indicate the type of sample: `W` for wire, `F` for film and `R` for rod.
-- `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=<math><msqrt><mi>A</mi></msqrt></math>, where A is the rod section.
+- `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=<math><sqrt><mi>A</mi></sqrt></math>, where A is the rod section.
 
 
 Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass deffect on the thermal conductivity.
