@@ -16,7 +16,7 @@ This diagonalization allows to solve the BTE without complicating drastically th
 The splitting of the collision operator allows to split the thermal conductivity in two contributions, kinetic and collective, 
 weighed by a switching factor &Sigma;:
 
-<div style="text-align_center;"> &kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub>
+<div style="text-align_center;"> &kappa; = (&Sigma; - 1)&kappa;<sub>kin</sub> + &Sigma;&kappa;<sub>col</sub> </div>
 
 <img class="ipsImage" src="img/kinetic_regime.png" alt="img_kin">)
 ![figcol](img/collective.png)
