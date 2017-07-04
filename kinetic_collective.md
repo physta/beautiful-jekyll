@@ -18,8 +18,7 @@ weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (&Sigma; - 1)&kappa;<sub>K</sub> + &Sigma;&kappa;<sub>C</sub> ,</center><div align="right">(1)</div> 
 
-where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance
-of the <i>N</i> versus <i>R</i> scattering.
+where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering.
 
 ![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
 
