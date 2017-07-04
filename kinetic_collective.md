@@ -32,7 +32,7 @@ kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</s
 <center>&tau; = (&Sigma; - 1)&tau;<sub>K</sub> + &Sigma;&tau;<sub>C</sub> .      (2)</center>
 <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 
-For a full understanding of the KCM look at [References](https://physta.github.io/articles/).
+For a full understanding of the KCM look at [REFERENCES](https://physta.github.io/articles/).
 
 ### Hydrodynamic KCM 
 
@@ -43,7 +43,7 @@ allows to study the drift operator in a simple way to higher orders, leading to 
  = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>+2&nabla;&nabla;<b>q</b>) ,      (3)</center>
 
 where <math>&ell;</math> is the non-local length (NL-param). From [Guyer and Krumhansel](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank_"} it is studied
-the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit corresponding
+the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit, corresponding
 to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>C</sub>=&langle;v<sup>2</sup>&tau;<sub>N</sub>&rangle;&langle;&tau;<sub>C</sub>&rangle;</math>.
 
 An analog derivation can be done for the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>, leading to <math>&ell;<sup>2</sup><sub>K</sub>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>.
@@ -51,3 +51,5 @@ An analog derivation can be done for the kinetic limit &tau;<sub>N</sub>>>&tau;<
 <center>&ell;<sup>2</sup> = (&Sigma; - 1)&ell;<sup>2</sup><sub>K</sub> + &Sigma;&ell;<sup>2</sup><sub>C</sub> .      (4)</center>
 
 This generalization of the Guyer and Krumhansel equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (Eq.3).
+This equation, together with suitable boundary conditions, can be implemented for finite elements simulations to study thermal 
+properties in complex geometries (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
