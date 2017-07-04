@@ -36,7 +36,7 @@ allows to study the drif operator in a simple way to higher orders, leading to:
 <center> &part;&tau;/&part;t + <b>q</b>
  = -&lambda;<b>&nabla;</b>T+&ell;<sup>2</sup>(&nabla;<sup>2</sup><b>q</b>+2&nabla;&nabla;<b>q</b>), </center>
 
-<center> &ell;</center>
+&ell;
 
 where &ell; is the non-local paramenter (NL-param). From [Guyer and Krumhansel](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank_"} it is studied
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit corresponding
