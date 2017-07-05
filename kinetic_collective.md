@@ -30,7 +30,6 @@ kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</s
 
 <center>&tau; = (1-&Sigma;)&tau;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&tau;<sup>&lowast;</sup><sub>C</sub> = &tau;<sub>K</sub> + &tau;<sub>C</sub> .</center> <div align="right">(2)</div>
 <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
-
 For a full understanding of the KCM look at [REFERENCES](https://physta.github.io/articles/).
 
 ### Hydrodynamic KCM 
