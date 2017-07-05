@@ -18,7 +18,7 @@ weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (1-&Sigma;)&kappa;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&kappa;<sup>&lowast;</sup><sub>C</sub> = &kappa;<sub>K</sub> + &kappa;<sub>C</sub> ,</center><div align="right">(1)</div> 
 
-where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. &kappa;<sup>&lowast;</sup> represent the limit thermal conductivity in each regime, while &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}.
+where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. &kappa;<sup>&lowast;</sup> represent the limit thermal conductivity in each regime, while &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}.
 
 ![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
 
