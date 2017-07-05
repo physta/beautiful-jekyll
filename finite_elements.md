@@ -26,8 +26,8 @@ The <b>Eq.1</b> needs to be implemented in a finite elements simulator as [ANSYS
 
 The boundary effects in the hydrodynamic model are introduced defining the flux at the boundaries as:
 
-<center> <b>q<sub>B</sub></b> = C &part;<b>q</b>/&part;<b>r</b>
+<center> <b>q<sub>B</sub></b> = C &part;<b>q</b>/&part;<b>r</b> ,</center><div align="right">(2)</div>
 
-</b>At the moment the hydrodynamic KCM equation is not publically included in any finite elements software to be used for regular users. 
+At the moment the hydrodynamic KCM equation is not publically included in any finite elements software to be used for regular users. 
 You will have to write the equation by yourself or ask <a href="mailto:{{ "pol.torres@uab.cat" }}" title="Email me" target="_blank">us</a> for collaboration.
 
