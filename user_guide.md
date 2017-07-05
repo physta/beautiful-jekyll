@@ -50,7 +50,7 @@ This calculation will provide a `kappa-mxxx.hdf5`, where `xxx` is the mesh indic
 
 To run the KCM calculation you need to have installed [phono3py](https://atztogo.github.io/phono3py/index.html).
 
-Start by cloning the script `KCM.py` and `INPUT` files by executing:
+Start by cloning the <b>kcm</b> folder including the `KCM.py` script and `INPUT` file by executing:
 [KCM.py](https://github.com/physta/kinetic_collective/script).
 
     git clone git://github.com/physta/kcm
@@ -66,7 +66,7 @@ To run the KCM calculation execute:
 
 Use only `--pa` if it was also used in the previous phono3py calculation.
 
-By default the thermal conductivity and NL-length will be storaged at Kkcm&lowbar;T&lowbar;<b>size</b>&lowbar;<b>component</b>&lowbar;<b>mesh</b>.dat .
+By default the thermal conductivity and NL-length will be storaged at Kkcm<math>&lowbar;</math>T<math>&lowbar;</math><b>size</b><math>&lowbar;</math><b>component</b><math>&lowbar;</math><b>mesh</b>.dat .
 
 
 
