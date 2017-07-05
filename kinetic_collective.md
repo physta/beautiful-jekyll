@@ -44,7 +44,7 @@ where <math>&ell;</math> is the non-local length (NL-param). From [Guyer and Kru
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit, corresponding
 to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>N</sub>&rangle;&langle;&tau;<sub>C</sub>&rangle;</math>.
 
-In the KCM framework has been estudied the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>,
+To have a global equation, in the KCM framework has been estudied the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>,
 leading to <math>&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>. This generalization allows to define a total non-local length as:
 
 <center>&ell;<sup>2</sup> = (1-&Sigma;)&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup> + &Sigma;&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup> = &ell;<sup>2</sup><sub>K</sub> + &ell;<sup>2</sup><sub>C</sub> .</center><div align="right">(4)</div>
