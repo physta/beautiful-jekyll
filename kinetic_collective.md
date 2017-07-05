@@ -44,10 +44,10 @@ where <math>&ell;</math> is the non-local length (NL-param). From [Guyer and Kru
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit, corresponding
 to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>N</sub>&rangle;&langle;&tau;<sub>C</sub>&rangle;</math>.
 
-An analog derivation can be done for the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>, leading to <math>&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>.
+In the KCM framework has been estudied the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>, leading to <math>&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>. This generalization allows to define a total non-local length as:
 
 <center>&ell;<sup>2</sup> = (1-&Sigma;)&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup> + &Sigma;&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup> = &ell;<sup>2</sup><sub>K</sub> + &ell;<sup>2</sup><sub>C</sub> .</center><div align="right">(4)</div>
 
-This generalization of the Guyer and Krumhansl equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (<b>Eq.3</b>).
+This extension of the Guyer and Krumhansl equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (<b>Eq.3</b>).
 This equation, together with suitable boundary conditions, can be implemented for finite elements simulations to study thermal 
 properties in complex geometries (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
