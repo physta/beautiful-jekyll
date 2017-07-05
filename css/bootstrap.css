@@ -62,7 +62,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 0.5em;
+  font-size: 2em;
 }
 mark {
   color: #000;
@@ -1258,11 +1258,11 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 10px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 4px;
 }
 h4,
 .h4 {
