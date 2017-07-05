@@ -28,5 +28,6 @@ The boundary effects in the hydrodynamic model are introduced defining the flux 
 
 <center> <b>q<sub>B</sub></b> = C &part;<b>q</b>/&part;<b>r</b>
 
-
+At the moment the hydrodynamic KCM equation is not publically included in any finite elements software to be used for regular users. 
+You will have to write the equation by yourself or ask <a href="mailto:{{ "pol.torres@uab.cat" }}" title="Email me" target="_blank">us</a> for collaboration.
 
