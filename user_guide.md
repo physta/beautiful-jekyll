@@ -66,7 +66,7 @@ To run the KCM calculation execute:
 
 Use only `--pa` if it was also used in the previous phono3py calculation.
 
-By default the thermal conductivity and NL-length will be storaged at Kkcm_T_`size`_`component`_`mesh`.dat .
+By default the thermal conductivity and NL-length will be storaged at Kkcm_T_<b>size</b>_<b>component</b>_<b>mesh</b>.dat .
 
 
 
