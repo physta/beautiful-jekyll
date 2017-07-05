@@ -16,7 +16,7 @@ This diagonalization allows to solve the BTE without complicating drastically th
 The splitting of the collision operator allows to split the thermal conductivity in two contributions, kinetic and collective, 
 weighed by a switching factor &Sigma; :
 
-<center>&kappa; = (1-&Sigma;)&kappa;<sub>K</sub><sup>^</sup> + &Sigma;&kappa;<sub>C</sub><sup>^</sup> ,</center><div align="right">(1)</div> 
+<center>&kappa; = (1-&Sigma;)&kappa;<sub>K</sub><sup>&lowast;</sup> + &Sigma;&kappa;<sub>C</sub><sup>&lowast;</sup> ,</center><div align="right">(1)</div> 
 
 where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering.
 
