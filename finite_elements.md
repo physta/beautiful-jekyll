@@ -22,7 +22,7 @@ The implementation of the KCM hydrodynamic equation:
 requires to obtain the bulk parameters &kappa; and <math>&ell;<sup>2</sup></math> from <i>first principles</i>
 simulations (see [USER GUIDE-INPUT FILE](https://physta.github.io/input_file/)). The default output file will inculde such parameters.
 
-The <b>Eq</b>.1 needs to be implemented in a finite elements simulator as [ANSYS](http://www.ansys.com/){:target="_blank_"} or [COMSOL](https://www.comsol.com){:target="_blank_"} in 1D, 2D or 3D.
+The <b>Eq.1</b> needs to be implemented in a finite elements simulator as [ANSYS](http://www.ansys.com/){:target="_blank_"} or [COMSOL](https://www.comsol.com){:target="_blank_"} in 1D, 2D or 3D.
 
 The boundary effects in the hydrodynamic model are introduced defining the flux at the boundaries as:
 

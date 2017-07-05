@@ -49,6 +49,6 @@ An analog derivation can be done for the kinetic limit &tau;<sub>N</sub>>>&tau;<
 
 <center>&ell;<sup>2</sup> = (1-&Sigma;)&ell;<sup>2</sup><sub>K</sub> + &Sigma;&ell;<sup>2</sup><sub>C</sub> .</center><div align="right">(4)</div>
 
-This generalization of the Guyer and Krumhansl equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (<b>Eq</b>.3).
+This generalization of the Guyer and Krumhansl equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (<b>Eq.3</b>).
 This equation, together with suitable boundary conditions, can be implemented for finite elements simulations to study thermal 
 properties in complex geometries (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
