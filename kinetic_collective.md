@@ -18,7 +18,7 @@ weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (1-&Sigma;)&kappa;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&kappa;<sup>&lowast;</sup><sub>C</sub> = &kappa;<sub>K</sub> + &kappa;<sub>C</sub> ,</center><div align="right">(1)</div> 
 
-where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. &kappa;<sup>&lowast;</sup> represent the limit thermal conductivity in each regime, while &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}.
+where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. While &kappa;<sup>&lowast;</sup> is the limit thermal conductivity in each regime, &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}.
 
 ![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
 
@@ -28,7 +28,7 @@ resistive collisions and share the same collision mean free time (MFT), the so-c
 In analogy with the definition of the thermal conductivity, the total phonon relaxation time can be defined from the
 kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</sub> as:
 
-<center>&tau; = (1-&Sigma;)&tau;<sub>K</sub> + &Sigma;&tau;<sub>C</sub> .</center> <div align="right">(2)</div>
+<center>&tau; = (1-&Sigma;)&tau;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&tau;<sup>&lowast;</sup><sub>C</sub> = &tau;<sub>K</sub> + &tau;<sub>C</sub> .</center> <div align="right">(2)</div>
 <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 
 For a full understanding of the KCM look at [REFERENCES](https://physta.github.io/articles/).
@@ -47,7 +47,7 @@ to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>C</sub>=&l
 
 An analog derivation can be done for the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>, leading to <math>&ell;<sup>2</sup><sub>K</sub>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>.
 
-<center>&ell;<sup>2</sup> = (1-&Sigma;)&ell;<sup>2</sup><sub>K</sub> + &Sigma;&ell;<sup>2</sup><sub>C</sub> .</center><div align="right">(4)</div>
+<center>&ell;<sup>2</sup> = (1-&Sigma;)&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup> + &Sigma;&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup> = &ell;<sup>2</sup><sub>K</sub> + &ell;<sup>2</sup><sub>C</sub> .</center><div align="right">(4)</div>
 
 This generalization of the Guyer and Krumhansl equation done in the KCM framework leads to the so-called hydrodynamic KCM equation (<b>Eq.3</b>).
 This equation, together with suitable boundary conditions, can be implemented for finite elements simulations to study thermal 
