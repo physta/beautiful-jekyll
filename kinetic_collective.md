@@ -34,6 +34,9 @@ For a full understanding of the KCM look at [REFERENCES](https://physta.github.i
 
 ### Hydrodynamic KCM 
 
+Since more than 10years ago the [nanoTransport Group](grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} has been working in heat hydrodynamics and
+its applications to study nanoscale systems (see [REFERENCES](https://physta.github.io/articles/)).
+
 As pointed out previously, using the basis that diagonalizes the normal scattering collision operator 
 allows to study the drift operator in a simple way to higher orders, leading to an hydrodynamic equation beyond Fourier:
 
