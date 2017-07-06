@@ -34,7 +34,7 @@ For a full understanding of the KCM look at [REFERENCES](https://physta.github.i
 
 ### Hydrodynamic heat transport in KCM 
 
-Since more than 10years ago the [nanoTransport Group](grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} has been working in heat hydrodynamics and
+Since more than 10years ago the [nanoTransport Group](http://grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} has been working in heat hydrodynamics and
 its applications to study nanoscale systems (see [REFERENCES](https://physta.github.io/articles/)).
 
 As pointed out previously, using the basis that diagonalizes the normal scattering collision operator 
