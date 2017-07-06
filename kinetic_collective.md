@@ -32,7 +32,7 @@ kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</s
 <center><img class="ipsImage" src="https://physta.github.io/img/anim.gif" alt="img/anim.gif" width="400px" height="auto"></center>
 For a full understanding of the KCM look at [REFERENCES](https://physta.github.io/articles/).
 
-### Hydrodynamic KCM 
+### Hydrodynamic heat transport in KCM 
 
 Since more than 10years ago the [nanoTransport Group](grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} has been working in heat hydrodynamics and
 its applications to study nanoscale systems (see [REFERENCES](https://physta.github.io/articles/)).
