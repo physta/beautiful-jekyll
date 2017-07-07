@@ -38,4 +38,4 @@ to avoid undesired interations of the upper and lower sheet.
 - On the calculation of the thermal conductivity, the value of &kappa; is normalized by the volume of the
 supercell, therefore, larger _z_ component will reduce the thermal conductivty. To compare with experiments,
 the value of the thermal conductivity &kappa; provided by <i> first principles </i> has to be rescaled 
-multiplying by the _z_ value used in the POSCAR and divided by the one reported by experimental data.
+multiplying by the _z_ value used in the POSCAR and divided by the interplanar distance of the bulk material.
