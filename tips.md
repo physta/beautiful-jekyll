@@ -29,7 +29,7 @@ grid sampling and its direct effect on the number of normal and umklapp processe
 
 For KCM we recommend to use primitive cell using `--pa` option. This provide better results and reduce the computational time.  
 
-<center> ![figcond](img/conductivity.png) </center>
+<center><img class="ipsImage" src="https://physta.github.io/img/conductivity.png" alt="img/anim.gif"></center>
 
 ### Thermal conductivity on 2D materials
 
@@ -42,5 +42,6 @@ supercell, therefore, larger _z_ component will reduce the thermal conductivty. 
 the value of the thermal conductivity &kappa; provided by <i> first principles </i> has to be rescaled 
 multiplying by the _z_ value used in the POSCAR and divided by the interplanar distance of the bulk material.
 
-<center> ![figgraph](img/graphene.png) </center>
+<center><img class="ipsImage" src="https://physta.github.io/img/graphene.png" alt="img/anim.gif"></center>
+
 
