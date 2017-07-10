@@ -29,7 +29,7 @@ phono3py --dim="2 2 2" --fc3 --fc2  --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0"
 ```
 `--fc3` and `--fc2` is used to avoid new calculation of the force constants done in the previous step.
 
-`--pa` is used to reducte to the primitive cell. This reduce the computational time. Here you have to introduce the primitive vectors as done in the example for the FCC structure.
+`--pa` is used to reduce to the primitive cell. This reduce the computational time. Here you have to introduce the primitive vectors as done in the example for the FCC structure.
 
 `--br` is used to fast calculation of the relaxation times.
 
@@ -66,7 +66,7 @@ To run the KCM calculation execute:
 
 Use only `--pa` if it was also used in the previous phono3py calculation.
 
-By default the thermal conductivity and NL-length will be storaged at Kkcm<math>&lowbar;</math>T<math>&lowbar;</math><b>size</b><math>&lowbar;</math><b>component</b><math>&lowbar;</math><b>mesh</b>.dat .
+By default the thermal conductivity and NL-length will be stored at Kkcm<math>&lowbar;</math>T<math>&lowbar;</math><b>size</b><math>&lowbar;</math><b>component</b><math>&lowbar;</math><b>mesh</b>.dat .
 
 
 

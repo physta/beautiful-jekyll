@@ -6,7 +6,7 @@ description: Theoretical framework of the KCM
 
 ### The Kinetic Collective Model
 
-The Kinetic Colletive Model (KCM) developed in recent years improve the solution provided under the classical RTA.
+The Kinetic Collective Model (KCM) developed in recent years improve the solution provided under the classical RTA.
 The model, derived from the exact solution of the LBTE proposed by Guyer and Krumhansl,
 is based on the splitting of the collision operator in normal and resistive processes (<b>C = N + R </b>) when calculating the scattering matrix.
 As normal processes does not contribute directly to thermal resistance but redistribute momentum over all the phonon distribution,
@@ -23,7 +23,7 @@ where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <
 ![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
 
 In the kinetic regime, each phonon behave independently, but in the collective regime, due to the effect
-of <i>N</i> collisions apprears a coupling between phonons. Therefore phonons of different modes perform as a whole
+of <i>N</i> collisions appears a coupling between phonons. Therefore phonons of different modes perform as a whole
 resistive collisions and share the same collision mean free time (MFT), the so-called collective MFT &tau;<sub>c</sub>.
 In analogy with the definition of the thermal conductivity, the total phonon relaxation time can be defined from the
 kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</sub> as:
@@ -47,7 +47,7 @@ where <math>&ell;</math> is the non-local length (NL-param). From [Guyer and Kru
 the limiting case where normal proceses dominate,  &tau;<sub>N</sub><<&tau;<sub>R</sub>. In this limit, corresponding
 to the collective regime, the NL-param is <math>&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>N</sub>&rangle;&langle;&tau;<sub>C</sub>&rangle;</math>.
 
-To have a global equation, in the KCM framework has been estudied the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>,
+To have a global equation, in the KCM framework has been studied the kinetic limit &tau;<sub>N</sub>>>&tau;<sub>R</sub>,
 leading to <math>&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup>=&langle;v<sup>2</sup>&tau;<sub>R</sub>&rangle;&langle;&tau;<sub>R</sub>&rangle;</math>. This generalization allows to define a total non-local length as:
 
 <center>&ell;<sup>2</sup> = (1-&Sigma;)&ell;<sup>2</sup><sub>K</sub><sup>&lowast;</sup> + &Sigma;&ell;<sup>2</sup><sub>C</sub><sup>&lowast;</sup> = &ell;<sup>2</sup><sub>K</sub> + &ell;<sup>2</sup><sub>C</sub> .</center><div align="right">(4)</div>

@@ -6,10 +6,10 @@ description: How to define specific inputs.
 
 An INPUT file is used by KCM.py to define specific parameters as temperatures or boundary effects.  
 
-The INPUT file also allows to specifiy the outputs you want to obtain from the calculations, 
+The INPUT file also allows to specify the outputs you want to obtain from the calculations, 
 as cumulative thermal conductivity or the thermal conductivity tensor.
 
-A default ouput file (Kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
+A default output file (Kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
 
 An example INPUT file is download together with KCM.py in order to easier the definition of parameters. Use it as reference.
 
@@ -35,16 +35,16 @@ to those calculated in <b>phono3py</b> with the `--ts` option (see [USER GUIDE-G
 - `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=&radic;<span style="text-decoration: overline">A</span>, where A is the rod section.
 
 
-Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass deffect on the thermal conductivity.
+Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass defect on the thermal conductivity.
 To avoid the need of repeating the calculation of the thermal conductivity with new isotope concentration `--mv`, it has been included the option `I_SF` (Impurity Scaling Factor):
 
-- `I_SF` scales the the impurity/mass deffect scattering relaxation time by the factor specified. Use a float value.
+- `I_SF` scales the the impurity/mass defect scattering relaxation time by the factor specified. Use a float value.
 
 The next variables indicate the type of outputs:
 
 - `COMP`. By default is written the component XX of the thermal conductivity tensor. Specify YY, ZZ, XY, XZ or YZ for other components. Use only one component in each calculation. 
-- `K_W`. Output file of frequency dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
-- `K_MFP`. Output file of mean free path dependence thermal conductivity. Here are inculuded the contribution of each mode as well as the accumulation function.
+- `K_W`. Output file of frequency dependence thermal conductivity. Here are included the contribution of each mode as well as the accumulation function.
+- `K_MFP`. Output file of mean free path dependence thermal conductivity. Here are included the contribution of each mode as well as the accumulation function.
 - `TAU_W`. Output file of frequency dependence relaxation times. The mode velocity is also included to easier the MFP representation.
 - `TAU_T`. Output file of temperature dependence relaxation times. The mode velocity is also included to easier the MFP representation.
-- `STP`. Indicates the number of elements used in the binnig of the frequency and mfp dependent output files. `STP= 100` by default.
+- `STP`. Indicates the number of elements used in the binning of the frequency dependent output file. `STP= 100` by default.

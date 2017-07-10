@@ -6,11 +6,11 @@ description: KCM hydodynamic equation in finite elements
 
 ### KCM hydodynamic equation in finite element simulations
 
-In recent years the [nanoTransport Group](http://grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} of Universitat Autonoma de Barcelona 
+In recent years the [nanoTransport Group](http://grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} of Universitat Autònoma de Barcelona 
 has been developing a theoretical framework to study thermal transport at the nanoscale in complex devices. While simple 
 geometries like nanowires or thin films can be predicted from classical models with effective parameters or suppression
-functions, complex geometries of real devices requies more specific treatment. The direct solution of the BTE in such cases
-is of high complexity and computationaly unachievable nowadays. The hydrodynamic model proposed by the
+functions, complex geometries of real devices requires more specific treatment. The direct solution of the BTE in such cases
+is of high complexity and computationally unachievable nowadays. The hydrodynamic model proposed by the
 [nanoTransport Group](http://grupsderecerca.uab.cat/nanotransport/en){:target="_blank_"} is providing good agreement with experimental
 setups in collaboration with the [Quantum Engineered Systems & Technology](https://nanohub.org/groups/quest/){:target="_blank_"} group from Purdue University.
 
@@ -28,6 +28,6 @@ The boundary effects in the hydrodynamic model are introduced defining the flux 
 
 <center> <b>q<sub>B</sub></b> = C &part;<b>q</b>/&part;<b>r</b> ,</center><div align="right">(2)</div>
 
-At the moment the hydrodynamic KCM equation is not publically included in any finite elements software to be used for regular users. 
+At the moment the hydrodynamic KCM equation is not publicly included in any finite elements software to be used for regular users. 
 You will have to write the equation by yourself or ask <a href="mailto:{{ "pol.torres@uab.cat" }}" title="Email me" target="_blank">us</a> for collaboration.
 
