@@ -29,7 +29,7 @@ In analogy with the definition of the thermal conductivity, the total phonon rel
 kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</sub> as:
 
 <center>&tau; = (1-&Sigma;)&tau;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&tau;<sup>&lowast;</sup><sub>C</sub> = &tau;<sub>K</sub> + &tau;<sub>C</sub> .</center> <div align="right">(2)</div>
-![gif1](img/anim.gif) ![fig3](img/anim.png)
+![gif1](img/anim.gif){:width="400px"} ![fig3](img/anim.png){:width="400px"}
 
 For a full understanding of the KCM look at [REFERENCES](https://physta.github.io/articles/).
 
