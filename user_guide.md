@@ -56,8 +56,7 @@ Start by cloning the <b>kcm</b> folder including the `KCM.py` script and `INPUT`
 
     git clone https://github.com/physta/kcm_script
 
-Rename the new <b>kcm</b> folder with a suitable name and include the `kappa-mxxx.hdf5` and `POSCAR`
-files of the material you want to calculate.
+Copy the `KCM.py` and `INCAR` files in the same folder where you have `kappa-mxxx.hdf5` and `POSCAR` or `incar.in`.
 
 Set the parameters of your calculation in the `INPUT` file according to the [INPUT](https://physta.github.io/input_file/) description.
 
