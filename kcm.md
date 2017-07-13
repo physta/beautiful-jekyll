@@ -6,8 +6,8 @@ description: Theoretical framework of the KCM
 
 ### The Kinetic Collective Model
 
-The Kinetic Collective Model (KCM) developed in recent years improve the solution provided under the classical RTA.
-The model, derived from the exact solution of the LBTE proposed by Guyer and Krumhansl,
+The [Kinetic Collective Model](http://aip.scitation.org/doi/10.1063/1.4871672){:target="_blank_"} (KCM) developed in recent years improve the solution provided under the classical RTA.
+The model, derived from the exact solution of the LBTE proposed by [Guyer and Krumhansl](https://journals.aps.org/pr/abstract/10.1103/PhysRev.148.766){:target="_blank_"},
 is based on the splitting of the collision operator in normal and resistive processes (<b>C = N + R </b>) when calculating the scattering matrix.
 As normal processes does not contribute directly to thermal resistance but redistribute momentum over all the phonon distribution,
 a suitable way to solve the LBTE is by using the basis that diagonalizes the normal scattering collision operator.
