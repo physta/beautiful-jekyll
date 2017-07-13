@@ -46,6 +46,8 @@ atoms you have in the primitive cell (if using `--pa` option) or in the conventi
 
 This calculation will provide a `kappa-mxxx.hdf5`, where `xxx` is the mesh indicated above.
 
+If you use <b>Quantum Espresso</b> instead of `-c POSCAR` use `--pwscf -c incar.in`
+
 ### KCM calculation
 
 To run the KCM calculation you need to have installed [phono3py](https://atztogo.github.io/phono3py/index.html).
@@ -67,5 +69,7 @@ Use only `--pa` if it was also used in the previous phono3py calculation. Execut
 
 By default the thermal conductivity and NL-length will be stored at K<math>&lowbar;</math>T<math>&lowbar;</math><b>size</b><math>&lowbar;</math><b>component</b><math>&lowbar;</math><b>mesh</b>.dat .
 
+If you use <b>Quantum Espresso</b> execute:
 
+    python KCM.py --pwscf --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" incar.in kappa-mxxx.hdf5
 
