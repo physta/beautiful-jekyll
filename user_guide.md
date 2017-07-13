@@ -51,14 +51,13 @@ This calculation will provide a `kappa-mxxx.hdf5`, where `xxx` is the mesh indic
 To run the KCM calculation you need to have installed [phono3py](https://atztogo.github.io/phono3py/index.html).
 
 Start by cloning the <b>kcm</b> folder including the `KCM.py` script and `INPUT` file by executing:
-[KCM.py](https://github.com/physta/kinetic_collective/script).
 
-    git clone git://github.com/physta/kcm
+    git clone https://github.com/physta/kcm_script
 
 Rename the new <b>kcm</b> folder with a suitable name and include the `kappa-mxxx.hdf5` and `POSCAR`
 files of the material you want to calculate.
 
-Set the parameters of you calculation in the `INPUT` file according to the [INPUT](https://physta.github.io/input_file/) description.
+Set the parameters of your calculation in the `INPUT` file according to the [INPUT](https://physta.github.io/input_file/) description.
 
 To run the KCM calculation execute:
 
