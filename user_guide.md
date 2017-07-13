@@ -10,7 +10,9 @@ using the output from phono3py.
 ### Phono3py calculation
 
 Download phono3py and follow the instructions given [here](https://atztogo.github.io/phono3py/index.html)
-to obtain the force constants for the desired material.
+to obtain the force constants for the desired material using [VASP](https://www.vasp.at/){:target="_blank_"} or [Quantum Espresso](http://www.quantum-espresso.org/){:target="_blank_"}.
+
+In the next commands, if you use <b>VASP</b> use `-c POSCAR`, with  <b>Quantum Espresso</b> use `--pwscf -c incar.in`
 
 Once you have the FORCES_FC2  FORCES_FC3  FORCE_SETS file execute
 
@@ -45,8 +47,6 @@ atoms you have in the primitive cell (if using `--pa` option) or in the conventi
 `-o` is used with an extra `name` to avoid overwirtting of the output file.
 
 This calculation will provide a `kappa-mxxx.hdf5`, where `xxx` is the mesh indicated above.
-
-If you use <b>Quantum Espresso</b> instead of `-c POSCAR` use `--pwscf -c incar.in`
 
 ### KCM calculation
 
