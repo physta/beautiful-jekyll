@@ -20,7 +20,7 @@ weighed by a switching factor &Sigma; :
 
 where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. While &kappa;<sup>&lowast;</sup> is the limit thermal conductivity in each regime, &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}.
 
-![figkin](img/kinetic_regime.png) ![figcol](img/collective.png)
+![figkin](img/kinetic_regime.png){:width="350px"} ![figcol](img/collective.png){:width="350px"}
 
 In the kinetic regime, each phonon behave independently, but in the collective regime, due to the effect
 of <i>N</i> collisions appears a coupling between phonons. Therefore phonons of different modes perform as a whole
@@ -29,7 +29,7 @@ In analogy with the definition of the thermal conductivity, the total phonon rel
 kinetic or resistive MFT &tau;<sub>K</sub> and the collective MFT &tau;<sub>C</sub> as:
 
 <center>&tau; = (1-&Sigma;)&tau;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&tau;<sup>&lowast;</sup><sub>C</sub> = &tau;<sub>K</sub> + &tau;<sub>C</sub> .</center> <div align="right">(2)</div>
-![gif1](img/anim.gif){:width="300px"} ![fig3](img/anim.png){:width="300px"}
+![gif1](img/anim.gif){:width="350px"} ![fig3](img/anim.png){:width="350px"}
 
 For a full understanding of the KCM look at [REFERENCES](https://physta.github.io/articles/).
 
