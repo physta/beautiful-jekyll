@@ -35,7 +35,7 @@ phono3py --dim="2 2 2" --fc3 --fc2  --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0"
 
 `--br` is used to fast calculation of the relaxation times.
 
-`--nu` is used to split _N_ and _U_ processes. This is necessary to run the KCM calculation.
+`--nu` is used to split _N_ and _U_ processes. <b> This tag is REQUIRED to run the KCM calculation </b>. 
 
 `--ts` indicates the temperatures to run the calculations.
 
