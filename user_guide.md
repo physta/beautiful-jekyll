@@ -63,7 +63,7 @@ To run the KCM calculation execute:
 
     python KCM.py --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR kappa-mxxx.hdf5
 
-Use only `--pa` if it was also used in the previous phono3py calculation.
+Use only `--pa` if it was also used in the previous phono3py calculation. Execute the <b>Si-example</b> with the previous script to test it.
 
 By default the thermal conductivity and NL-length will be stored at K<math>&lowbar;</math>T<math>&lowbar;</math><b>size</b><math>&lowbar;</math><b>component</b><math>&lowbar;</math><b>mesh</b>.dat .
 
