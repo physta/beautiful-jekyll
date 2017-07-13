@@ -14,7 +14,7 @@ to obtain the force constants for the desired material using [VASP](https://www.
 
 In the next commands, if you use <b>VASP</b> use `-c POSCAR`, with  <b>Quantum Espresso</b> use `--pwscf -c incar.in`
 
-Once you have the FORCES_FC2  FORCES_FC3  FORCE_SETS file execute
+Once you have the FORCES_FC2,  FORCES_FC3, and  FORCE_SETS files execute
 
     phono3py --dim="2 2 2" --sym_fc3 --sym_fc2 --tsym -c POSCAR
 
@@ -56,7 +56,7 @@ Start by cloning the <b>kcm</b> folder including the `KCM.py` script and `INPUT`
 
     git clone https://github.com/physta/kcm_script
 
-Copy the `KCM.py` and `INCAR` files in the same folder where you have `kappa-mxxx.hdf5` and `POSCAR` or `incar.in`.
+Copy the `KCM.py` and `INCAR` files in the same folder where you have `kappa-mxxx.hdf5` and `POSCAR` or `incar.in` of the material you want to calculate the thermal conductivity.
 
 Set the parameters of your calculation in the `INPUT` file according to the [INPUT](https://physta.github.io/input_file/) description.
 
