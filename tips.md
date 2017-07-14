@@ -28,6 +28,10 @@ is different if it is used a primitive or conventional cell, the sampling of the
 effect on thermal transport.
 
 <center><img class="ipsImage" src="https://physta.github.io/img/conductivity.png" alt="img/anim.gif"></center>
+<center>Fig.1: Thermal conductivity of semiconductors with KCM in a 20x20x20 grid</center>
+
+For general calculations of thermal conductivity it is recommended at least a 20x20x20 gird (see Fig.1).
+For calculations of the NL-length it is recommended at least 40x40x40.
 
 ### Thermal conductivity on 2D materials
 
