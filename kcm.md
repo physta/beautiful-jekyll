@@ -22,7 +22,13 @@ where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <
 
 <center>&kappa;<sup>&lowast;</sup><sub>K</sub>=&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>&otimes;v<sub>i</sub>&tau;<sub>i</sub></center>
 
-<center><table><tr><td>
+<style>
+    td.upper_line { border-top:solid 1px white; }
+    table.fraction { text-align: center; vertical-align: middle;
+        margin-top:0.5em; margin-bottom:0.5em; line-height: 2em; }
+</style>
+
+<center><table class="fraction" align="center" cellpadding="0" cellspacing="0"><tr><td>
 <div style="float:left;">&kappa;<sup>&lowast;</sup><sub>C</sub>=</div></td>
  <td> <div style="float:left"><div style="border-bottom:1px solid;font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub></div> <div style="font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)&tau;<sup>-1</sup></div>
   </div></td>
