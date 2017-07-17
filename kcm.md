@@ -18,7 +18,20 @@ weighed by a switching factor &Sigma; :
 
 <center>&kappa; = (1-&Sigma;)&kappa;<sup>&lowast;</sup><sub>K</sub> + &Sigma;&kappa;<sup>&lowast;</sup><sub>C</sub> = &kappa;<sub>K</sub> + &kappa;<sub>C</sub> ,</center><div align="right">(1)</div> 
 
-where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. While &kappa;<sup>&lowast;</sup> is the limit thermal conductivity in each regime, &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}.
+where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. While &kappa;<sup>&lowast;</sup> is the limit thermal conductivity in each regime, &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}:
+
+<center>&kappa;<sup>&lowast;</sup><sub>K</sub>=&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>&otimes;v<sub>i</sub>&tau;<sub>i</sub></center>
+
+
+<div class="eq-c">
+&kappa;<sup>&lowast;</sup><sub>C</sub>=
+<div class="fraction">
+<span class="fup"> &sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub></span>
+<span class="bar">/</span>
+<span class="fdn">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)&tau;<sup>-1</sup></span>
+</div>
+</div>
+
 
 ![figkin](img/kinetic_regime.png){:width="350px"} ![figcol](img/collective.png){:width="350px"}
 
