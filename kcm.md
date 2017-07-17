@@ -23,7 +23,7 @@ where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <
 <center>&kappa;<sup>&lowast;</sup><sub>K</sub>=&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>&otimes;v<sub>i</sub>&tau;<sub>i</sub> </center><div align="right">(2)</div>
 
 <style>
-    td.upper_line { border-top:solid transparent; }
+    td.upper_line { border-top:solid transparent; border:0; }
     table.fraction { text-align: center; vertical-align: middle;
         margin-top:0.5em; margin-bottom:0.5em; line-height: 2em; }
 </style>
