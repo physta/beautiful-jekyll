@@ -22,11 +22,8 @@ where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <
 
 <center>&kappa;<sup>&lowast;</sup><sub>K</sub>=&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>&otimes;v<sub>i</sub>&tau;<sub>i</sub></center>
 
-
-<center><div class="eq-c">&kappa;<sup>&lowast;</sup><sub>C</sub>=<div class="fraction"><span class="fup"> &sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub></span><span class="bar">/</span><span class="fdn">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)&tau;<sup>-1</sup></span></div></div></center>
-
 <table><tr><td>
-<div style="float:left;">Substitute 4 for 'x' in the equation: &nbsp;</div></td>
+<div style="float:left;">&kappa;<sup>&lowast;</sup><sub>C</sub></div></td>
  <td> <div style="float:left"><div style="border-bottom:1px solid;font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub></div> <div style="font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)&tau;<sup>-1</sup></div>
   </div></td>
 </tr>
