@@ -33,7 +33,7 @@ where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <
  <td> <div style="float:left"><div style="border-bottom:1px solid;font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub></div> <div style="font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)<sup>2</sup>&tau;<sup>-1</sup></div>
   </div></td>
 </tr>
-</table> ,</center> <div align="right">(3)</div>
+, </table></center> <div align="right">(3)</div>
 
 
 ![figkin](img/kinetic_regime.png){:width="350px"} ![figcol](img/collective.png){:width="350px"}
