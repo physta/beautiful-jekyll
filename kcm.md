@@ -20,7 +20,7 @@ weighed by a switching factor &Sigma; :
 
 where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <math>&langle;</math>&tau;<sub>R</sub><math>&rangle;</math>)<sup>-1</sup>. &Sigma; &isin; [0,1] measures the relative importance of the <i>N versus R</i> phonon scattering. <math>&langle;</math>&tau;<math>&rangle;</math> represents a temperature dependent averaged relaxation time. While &kappa;<sup>&lowast;</sup> is the limit thermal conductivity in each regime, &kappa;<sub>K</sub> and ;&kappa<sub>C</sub> are the actual contributions to thermal conductivity weighed by &Sigma;. In the current version of `KCM.py` are implemented the contributions that maximizes the entropy in each regime as defined [here](https://doi.org/10.1063%2F1.4871672){:target="_blank_"}:
 
-<center>&kappa;<sup>&lowast;</sup><sub>K</sub>=&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>&otimes;v<sub>i</sub>&tau;<sub>i</sub> d<sup>3</sup><b>q</b> </center><div align="right">(2)</div>
+<center>&kappa;<sup>&lowast;</sup><sub>K</sub>=&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>&otimes;v<sub>i</sub>&tau;<sub>i</sub> </center><div align="right">(2)</div>
 
 <style>
     td.upper_line { border-top:solid transparent; border:0; border-color:transparent; border-width: 4px 0; }
@@ -30,7 +30,7 @@ where &Sigma;=(1+<math>&langle;</math>&tau;<sub>N</sub><math>&rangle;</math> / <
 
 <center><table class="fraction" align="center" cellpadding="0" cellspacing="0"><tr><td>
 <div style="float:left;">&kappa;<sup>&lowast;</sup><sub>C</sub>=</div></td>
- <td> <div style="float:left"><div style="border-bottom:1px solid;font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>d<sup>3</sup><b>q</b>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>d<sup>3</sup><b>q</b></div> <div style="font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)<sup>2</sup>&tau;<sup>-1</sup><sub>i</sub>d<sup>3</sup><b>q</b></div>
+ <td> <div style="float:left"><div style="border-bottom:1px solid;font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub>&otimes;&sum;<sub>i</sub>C<sub>i</sub>v<sub>i</sub>q<sub>i</sub></div> <div style="font-size:small;text-align:center;">&sum;<sub>i</sub>C<sub>i</sub>q<sub>i</sub><sup>2</sup>/(&#8463;&omega;)<sup>2</sup>&tau;<sup>-1</sup><sub>i</sub></div>
   </div></td>
 </tr>
 </table></center> <div align="right">(3)</div>
