@@ -9,7 +9,7 @@ An INPUT file is used by KCM.py to define specific parameters as temperatures or
 The INPUT file also allows to specify the outputs you want to obtain from the calculations, 
 as cumulative thermal conductivity or the thermal conductivity tensor.
 
-A default output file (Kkcm_size_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
+A default output file (K_T_size_component_mesh.dat) of thermal conductivity and NL-parameters as function of temperature is provided. This file can be used as input for finite elements simulations removing the caption line (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
 
 An example INPUT file is download together with KCM.py in order to easier the definition of parameters. Use it as reference. Respect the spaces between the tag and the value to avoid problems.
 
