@@ -15,17 +15,17 @@ An example INPUT file is download together with KCM.py in order to easier the de
 
 ### INPUT parameters
 
-	TEMP= 100 200 300
-	BOUNDARY= Y
-	TYPE= W
-	L= 56e-9
-	I_SF= 1.
-	COMP= XX
-	K_W= Y
-	K_MFP= Y
-	TAU_W= Y
-	TAU_T= N
-	STP= 100
+        TEMP= 100 200 300
+        BOUNDARY= Y
+        TYPE= W F
+        L= 56e-9 0.03
+        I_SF= 1.
+        COMP= XX
+        K_W= Y
+        K_MFP= Y
+        TAU_W= Y
+        TAU_T= N
+        STP= 100
 
 See a brief explanation of each parameter:
 - `TEMP`. Specify the temperature on which calculations will be carried. Write `ALL` if you want to run the calculation on all the temperatures. The temperatures must correspond
@@ -33,8 +33,8 @@ to those calculated in <b>phono3py</b> with the `--ts` option (see [USER GUIDE-G
 - `BOUNDARY`. Specify `Y` or `N` if you want or not include boundary scattering. This provide a broad approach to boundary effects. Better results are provided by the hydrodynamic
 KCM approach (see [FINITE ELEMENTS](https://physta.github.io/finite_elements/)).
 - `TYPE`. If considering boundary effects, indicate the type of sample: `W` for wire, `F` for film and `R` for rod.
-- `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=&radic;<span style="text-decoration: overline">A</span>, where A is the rod section.
-
+- `L`. Represents the length of the sample. For a wire L=diameter, for a film L=thickness, and for a rod L=&radic;<span style="text-decoration: overline">A</span>, where A is the rod section. Specify different sizes if you want to run a calculation for more than one sample at the same time. Indicate as well more sh
+ape `W`, `F`, `R` in each case.
 
 Some times is interesting to observe the effect of increase or decrease the effect of the impurity/mass defect on the thermal conductivity.
 To avoid the need of repeating the calculation of the thermal conductivity with new isotope concentration `--mv`, it has been included the option `I_SF` (Impurity Scaling Factor):
