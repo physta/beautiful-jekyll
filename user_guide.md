@@ -16,7 +16,7 @@ In the next commands, if you use <b>VASP</b> use `-c POSCAR`, with  <b>Quantum E
 
 Once you have the FORCES_FC2,  FORCES_FC3, and  FORCE_SETS files execute
 
-    phono3py --dim="2 2 2" --sym_fc3 --sym_fc2 --tsym -c POSCAR
+    phono3py --dim="2 2 2" --sym-fc -c POSCAR
 
 This will provide the harmonic and anharmonic force constants files fc2.hdf5 and fc3.hdf5.
 
@@ -31,7 +31,7 @@ phono3py --dim="2 2 2" --fc3 --fc2  --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0"
 ```
 `--fc3` and `--fc2` is used to avoid new calculation of the force constants done in the previous step.
 
-`--pa` is used to reduce to the primitive cell. This reduce the computational time. Here you have to introduce the primitive vectors as done in the example for the FCC structure.
+`--pa` is used to reduce to the primitive cell. This reduce the computational time. Here you have to introduce the primitive vectors as done in the example for the FCC diamond-like structure.
 
 `--br` is used to fast calculation of the relaxation times.
 
