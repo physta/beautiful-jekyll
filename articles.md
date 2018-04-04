@@ -14,6 +14,10 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 
 ### nanoTransport Group
 
+- A. Ziabari, P. Torres, B. Vermeersch, X. Cartoixa, A. Torello, Y. Xuan, J.-H. Bahk, Y. Koh, Y. P., F. Alvarez, and A. Shakouri, [<i>Full-field thermal imaging of quasiballistic crosstalk reduction in nanoscale devices</i>](https://www.nature.com/articles/s41467-017-02652-4){:target="_blank_"}. Nature Communications 9, 255 (2018).
+- P. Torres, A. Mohammed, A. Torelló, J. Bafaluy, J. Camacho, X. Cartoixà, A. Shakouri and F. X. Alvarez. [<i>Collective thermal transport in pure and alloy semiconductors</i>](http://pubs.rsc.org/en/content/articlehtml/2018/cp/c7cp07738f}{:target="_blank_"}.Phys. Chem. Chem. Phys. 20, 6805-6810 (2018).
+- M. Calvo, M.G. Hennessy, P. Torres, T.G. Myers and F.X. Alvarez. [<i>A slip-based model for the size-dependent effective thermal conductivity of nanowires</i>](A slip-based model for the size-dependent effective thermal conductivity of
+nanowires}{:target="_blank_"} Int. J. Heat Mass Transf. 91, 57-63 (2018).
 - Torres P, Torelló A, Bafaluy J, Camacho J, Cartoixà X, Alvarez FX. [<i>First principles kinetic-collective thermal conductivity of semiconductors</i>](https://link.aps.org/doi/10.1103/PhysRevB.95.165407){:target="_blank_"}.Physical Review B, 2017.
 - Rojo MMuñoz, Abad B, Manzano CV, Torres P, Cartoixà X, Alvarez FX, <i>et al</i>. [<i>Thermal conductivity of Bi<sub>2</sub>Te<sub>3</sub> nanowires: how size affects phonon scattering</i>](https://doi.org/10.1039/c7nr02173a){:target="_blank_"}. Nanoscale, 2017.
 - de Tomas C, Cantarero A, Lopeandia AF, Alvarez FX. [<i>Enhancing of optic phonon contribution in hydrodynamic phonon transport</i>](https://doi.org/10.1063%2F1.4932034){:target="_blank_"}. Journal of Applied Physics, 2015.
