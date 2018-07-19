@@ -14,6 +14,8 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 
 ### nanoTransport Group
 
+- P. Torres. [<i>Thermal Transport in Semiconductors. First Principles and Phonon Hydrodynamics</i>](https://www.springer.com/gp/book/9783319949826){:target="_blank_"}. Springer Nature (Heidelberg, 2018).
+- P. Torres, A. Ziabari, A. Torelló, J. Bafaluy, J. Camacho, X. Cartoixà, A. Shakouri and F. X. Alvarez. [<i>Emergence of hydrodynamic heat transport in semiconductors at the nanoscale</i>](https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.076001){:target="_blank_"}. Physical Review Materials 2, 076001(2018).
 - A. Ziabari, P. Torres, B. Vermeersch, X. Cartoixa, A. Torello, Y. Xuan, J.-H. Bahk, Y. Koh, Y. P., F. Alvarez, and A. Shakouri, [<i>Full-field thermal imaging of quasiballistic crosstalk reduction in nanoscale devices</i>](https://www.nature.com/articles/s41467-017-02652-4){:target="_blank_"}. Nature Communications 9, 255 (2018).
 - P. Torres, A. Mohammed, A. Torelló, J. Bafaluy, J. Camacho, X. Cartoixà, A. Shakouri and F. X. Alvarez. [<i>Collective thermal transport in pure and alloy semiconductors</i>](http://pubs.rsc.org/en/content/articlehtml/2018/cp/c7cp07738f){:target="_blank_"}.Phys. Chem. Chem. Phys. 20, 6805-6810 (2018).
 - M. Calvo, M.G. Hennessy, P. Torres, T.G. Myers and F.X. Alvarez. [<i>A slip-based model for the size-dependent effective thermal conductivity of nanowires</i>](A slip-based model for the size-dependent effective thermal conductivity of nanowires){:target="_blank_"} Int. J. Heat Mass Transf. 91, 57-63 (2018).
