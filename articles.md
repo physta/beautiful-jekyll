@@ -14,7 +14,9 @@ A list of articles/books related with the Kinetic Collective Model are provided 
 
 ### nanoTransport Group
 
-- P. Torres. [<i>Thermal Transport in Semiconductors. First Principles and Phonon Hydrodynamics</i>](https://www.springer.com/gp/book/9783319949826){:target="_blank_"}. Springer Nature (Heidelberg, 2018).
+- P. Torres, F.X. Alvarez, X. Cartoixà and R. Rurali. [<i>Thermal conductivity and phonon hydrodynamics in transition metal dichalcogenides from first-principles</i>](https://iopscience.iop.org/article/10.1088/2053-1583/ab0c31){:target="_blank_"}.2D Materials, 6 (3) , 035002 (2019).
+- A. Beardo, M. Calvo-Schwarzwälder, J. Camacho, T. G. Myers, P. Torres, F. X. Alvarez, and J. Bafaluy. [<i>Hydrodynamic heat transport in compact and holey silicon thin films</i>](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.11.034003){:target="_blank_"}.Physical Review Applied, 11, 034003 (2019).
+- P. Torres. [<i>Thermal Transport in Semiconductors. First Principles and Phonon Hydrodynamics</i>](https://www.springer.com/gp/book/9783319949826){:target="_blank_"}. Springer Nature (Switzerland, 2018).
 - P. Torres, A. Ziabari, A. Torelló, J. Bafaluy, J. Camacho, X. Cartoixà, A. Shakouri and F. X. Alvarez. [<i>Emergence of hydrodynamic heat transport in semiconductors at the nanoscale</i>](https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.2.076001){:target="_blank_"}. Physical Review Materials 2, 076001(2018).
 - A. Ziabari, P. Torres, B. Vermeersch, X. Cartoixa, A. Torello, Y. Xuan, J.-H. Bahk, Y. Koh, Y. P., F. Alvarez, and A. Shakouri, [<i>Full-field thermal imaging of quasiballistic crosstalk reduction in nanoscale devices</i>](https://www.nature.com/articles/s41467-017-02652-4){:target="_blank_"}. Nature Communications 9, 255 (2018).
 - P. Torres, A. Mohammed, A. Torelló, J. Bafaluy, J. Camacho, X. Cartoixà, A. Shakouri and F. X. Alvarez. [<i>Collective thermal transport in pure and alloy semiconductors</i>](http://pubs.rsc.org/en/content/articlehtml/2018/cp/c7cp07738f){:target="_blank_"}.Phys. Chem. Chem. Phys. 20, 6805-6810 (2018).
