@@ -68,7 +68,9 @@ Use only `--pa` if it was also used in the previous phono3py calculation. Execut
 
 By default the thermal conductivity and NL-length will be stored at K<math>&lowbar;</math>T<math>&lowbar;</math><b>size</b><math>&lowbar;</math><b>component</b><math>&lowbar;</math><b>mesh</b>.dat .
 
-If you use <b>Quantum Espresso</b> execute:
+If you use <b>Quantum Espresso</b> rewrite your `incar.in` according to the `POSCAR` format, which only requires the cell vectors and atomic positions, and run the KCM.py as:
 
-    python KCM.py --pwscf --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" incar.in kappa-mxxx.hdf5
+    python KCM.py --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR kappa-mxxx.hdf5
+ 
+
 
