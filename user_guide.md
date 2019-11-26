@@ -56,7 +56,7 @@ Start by cloning the <b>kcm</b> folder including the `KCM.py` script and `INPUT`
 
     git clone https://github.com/physta/kcm_script
 
-Copy the `KCM.py` and `INCAR` files in the same folder where you have `kappa-mxxx.hdf5` and `POSCAR` or `incar.in` of the material you want to calculate the thermal conductivity.
+Copy the `KCM.py` and `INCAR` files in the same folder where you have `kappa-mxxx.hdf5` and `POSCAR` or `incar.in` of the material you want to calculate the thermal conductivity. Find also a version KCM_py3.py written in python3 to be used with the last version of Phono3py.
 
 Set the parameters of your calculation in the `INPUT` file according to the [INPUT](https://physta.github.io/input_file/) description.
 
